@@ -111,8 +111,14 @@ obs:
 >
 >* Cuanto mayor sea el número de veces que se repite el experimento, mejor será la estimación de la probabilidad,
 >* i.e., a mayor número de ensayos mejor será la estimación.
+## 2. Noción clásica o *a priori* de probabilidad
+>Sea E un experimento aleatorio, tal que:
+>* su espacio muestral  está formado un número finito, n, de resultados,
+>* cada uno de los resultados del experimento posee la misma posibilidad de ocurrir, i.e., son equiprobables.
 
+la probabilidad de un eventoA puede calcularse contado
 
+${P(a)}=\frac{NCasosFab}{Numero De Casos Pos} = \frac{Fabo al Suceso A}{Numero de ResDelExp}$
 
 - - -
 ## 2. Distribución de variables y vectores aleatorios.
