@@ -127,9 +127,7 @@ $$\lim\limits_{x \to \infty} f_{rA} = P(A)$$
 
 la frecuencia relativa de un evento puede ser usada como una aproximacion de la probabilidad de $A$. esta aproximacion es llamada *probabilidad empirica de $A$*
 
-$$
-   0<P(A)\approx f_{rA}= \frac{f_{A}}{n} < 1
-$$
+$$0<P(A)\approx f_{rA}= \frac{f_{A}}{n} < 1$$
 
 >Cuando se usa la definición frecuentísta o «a posteriori», es importante tener en cuenta los siguientes aspectos:
 >* La frecuencia relativa obtenida es únicamente una estimación del valor real de la probabilidad de que se de el suceso.
