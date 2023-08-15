@@ -1,68 +1,3 @@
-
-Guía básica de algunas funciones y símbolos que podrías utilizar en Markdown
-$$
-\int_{a}^{b} f(x) \, dx
-$$
-
-1. **Símbolos y Operadores Matemáticos:**
-
-   - Suma: $+$
-   - Resta: $-$
-   - Multiplicación: $*$
-   - División: $/$
-   - Exponente: `^`
-   - Subíndice: `_`
-   - Fracciones: $\frac{a}{b}$
-   - Raíz cuadrada: $\sqrt{x}$
-   - Valor absoluto: $|x|$
-   - Sumatorio: $\sum_{i=1}^{n}$
-   - Producto: $\prod_{i=1}^{n}$
-
-2. **Funciones Matemáticas:**
-* ejemplo de expresion por bloque:
-   - Seno:  $$
-            \sin(x)
-            $$
-* ejemplos expresion por linea:
-   - Coseno: $\cos(x)$
-   - Tangente: $\tan(x)$
-   - Logaritmo: $\log(x)$
-   - Exponencial: $e^{x}$
-   - Función max: $\max(a, b)$
-   - Función min: $\min(a, b)$
-
-1. **Notación de Probabilidad y Estadísticas:**
-
-   - Valor esperado: $\mathbb{E}[X]$
-   - Varianza: $\text{Var}(X)$
-   - Desviación estándar: $\text{SD}(X)$
-   - Probabilidad: $P(X)$
-   - Distribución normal: $\mathcal{N}(\mu, \sigma^2)$
-   - Distribución uniforme: $\text{Uniforme}(a, b)$
-
-2. **Matrices y Vectores:**
-
-   - Matriz: \[ \begin{bmatrix} a & b \\ c & d \end{bmatrix} \]
-   - Vector: \[ \begin{bmatrix} x \\ y \\ z \end{bmatrix} \]
-
-3. **Ecuaciones y Sistemas de Ecuaciones:**
-
-   - Ecuación:  
-    $
-    y = mx + b 
-    $
-   - Sistema de ecuaciones: 
-    \[
-    2x + 3y &= 7 \\
-    4x - y &= 1
-    
-    \]
-
-
-
- $$ y = mx + b $$
-
-
 # MECC
 - teoria: 
    * horarios: lunes 16 a 18
@@ -222,7 +157,21 @@ ${P(A)}=\frac{\text{N° casos favorables}}{\text{N° casos posibles}} = \frac{\t
 
 #### Nocion subjetiva de probabilidad
  cuando no se tienen datos para ninigun tipo de calculo, ni posibilidad de efectuar repetidamente un experimento, un experto es quien estima la probabilidad de que ocurra ese evento.
-* Axioma: Dado un experimento 
+* Axioma: Dado un experimento $E$ y $\Omega$, su espacio muestral asociado, a cada evento $A$ se le asociara un numero real que se nota como $P(A)$. esta asignacion debe satisfacer los siguientes axiomas:
+    1. $P(A) \geq 0, \forall A \in \Omega $ 
+    2. $P(\Omega) = 1$
+    3. Para toda sucesion de eventos disjuntos $A_1,A_2,A_3...A_n... ie, A_i \cap A_j =  \emptyset $para todo $i \neq j$ , se verifica que la union entre las probabilidades es la sumatoria $\sum_{i=1}^{\infty} P(A_i)$
+
+#### Propiedades de probabilidad
+1. $P(\emptyset) = 0$
+   
+2. $P(A \cup B) = P(A) + P(B) $
+   $ si,  A \cap B = \emptyset $
+3. $P(A \cup B) = P(A) + P(B) - ( A \cap B)$
+4. si $A \subseteq B$ entonces $P(A)\leq P(B)$
+5. $P(A') = 1- P(A)$
+6. $P(A-B) = P(A\cap B')= P(A)- P(A \cap B)$
+- - -
 - - -
 ## 2. Distribución de variables y vectores aleatorios.
 
